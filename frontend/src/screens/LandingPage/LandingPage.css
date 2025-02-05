@@ -1,0 +1,52 @@
+.main {
+	min-height: 93vh;
+	display: flex;
+	align-items: center;
+	background-color: #36393e;
+	/* background-image: url(https://wallpapercrafter.com/sizes/2560x1440/13908-circles-wall-yellow-black-4k.jpg); */
+	background-position: center;
+	background-size: cover;
+}
+.title {
+	font-size: 95px;
+}
+.subtitle {
+	font-size: 25px;
+	padding-top: 10px;
+}
+
+.intro-text {
+	width: 100%;
+	text-align: center;
+	padding-bottom: 90%;
+}
+
+.buttonContainer {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.login-btn {
+	width: 200px;
+	height: 55px;
+	background-color: #e2c044;
+	border: none;
+	/* border-radius: 5px; */
+	/* padding: 10px 20px;
+	font-size: 20px; */
+}
+
+@media only screen and (min-width: 1200px) {
+	.buttonContainer {
+		padding: 0 200px;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.title {
+		font-size: 60px;
+	}
+	.login-btn {
+		width: 150px;
+		height: 50px;
+	}
+}
